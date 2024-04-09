@@ -3,7 +3,8 @@
   "extends": [
     "config:best-practices",
     ":automergePatch",
-    ":automergeDigest"
+    ":automergeDigest",
+    ":separateMultipleMajorReleases"
   ],
   "regexManagers": [
     {
